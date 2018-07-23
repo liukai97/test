@@ -28,7 +28,6 @@ int main()
 //  realptr1 = __builtin_assume_aligned(realptr1, 64);
 //  realptr2 = __builtin_assume_aligned(realptr2, 64);
 
-
 #pragma GCC ivdep
   for (j = 0; j < 512; j++)
   {
